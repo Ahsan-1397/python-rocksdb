@@ -21,7 +21,7 @@ if platform.system() == 'Darwin':
 setup(
     name="python-rocksdb",
     version='0.7.0',
-    python_requires="<3.7"
+    python_requires="<3.7",
     description="Python bindings for RocksDB",
     keywords='rocksdb',
     author='Ming Hsuan Tu',
